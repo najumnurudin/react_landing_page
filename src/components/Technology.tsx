@@ -76,12 +76,12 @@ export default function TechnologicalDevelopment() {
             <img
               src={image2}
               alt="Tech Bottom 1"
-              className="w-[30vh] h-[30vh] object-cover rounded-lg shadow-md"
+              className="lg:w-[30vh] lg:h-[30vh] w-[35vh] h-[43vh] object-cover rounded-lg shadow-md"
             />
             <img
               src={image3}
               alt="Tech Bottom 2"
-              className="w-[30vh] h-[30vh] object-cover rounded-lg shadow-md"
+              className="lg:w-[30vh] lg:h-[30vh] w-[35vh] h-[43vh] object-cover rounded-lg shadow-md"
             />
           </div>
         </motion.div>

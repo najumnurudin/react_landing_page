@@ -45,7 +45,7 @@ const buttonTap = {
 
 export default function PersonalFinance() {
   return (
-    <main className="lg:mt-[7.9vh] mt-[8.6vh] text-white w-[100vw] max-h-[90vh] flex items-center justify-center p-4 lg:overflow-hidden overflow-scroll bg-transparent">
+    <main className="bg-transparent py-3 lg:mt-[7vh] mt-[5vh] lg:h-[90vh] overflow-scroll lg:overflow-hidden ">
       <div className="flex flex-col md:flex-row w-full max-w-6xl h-full md:h-[90%]">
         {/* Left Content */}
         <motion.div

@@ -21,7 +21,7 @@ export default function HeroSection() {
           <i><FaInstagram  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/></i>
           <i><RiTwitterXFill  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/></i>
         </div>
-        <div className="mx-[5vh] mt-[6vh] late flex justify-between">
+        <div className="mx-[5vh] mt-[6vh] late lg:flex lg:flex-row flex-col flex justify-between">
           <i className="text-xs flex items-center select-none"><ImWhatsapp  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/><a className="text-white hover:text-orange-600 late" href="https://wa.me/255749722722"  target="_blank">+255 749 722 722</a> </i>
           <i className="text-xs flex items-center select-none"><IoMail size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/> <a className="text-white hover:text-orange-600 late" href="mailto:info@.tanzaniteskills.ac.tz" target="blank">info@.tanzaniteskills.ac.tz</a></i>
         </div>

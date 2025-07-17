@@ -72,7 +72,7 @@ export default function TechnologicalDevelopment() {
           />
 
           {/* Bottom Two Images */}
-          <div className="flex gap-4">
+          <div className="flex  lg:flex lg:flex-row flex-col gap-4">
             <img
               src={image2}
               alt="Tech Bottom 1"

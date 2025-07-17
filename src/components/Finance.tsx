@@ -1,27 +1,36 @@
-import { motion } from "framer-motion";
-import { FaPiggyBank, FaCreditCard, FaChartLine } from "react-icons/fa";
+import { motion, Variants } from "framer-motion";
+
 import image1 from "../assets/finance/1.jpg";
 import image2 from "../assets/finance/2.jpg";
 import image3 from "../assets/finance/3.jpg";
 
-// Animation Variants
-const leftFadeIn = {
+// ✅ TypeScript-Safe Animation Variants
+const leftFadeIn: Variants = {
   hidden: { opacity: 0, x: -80, rotate: -5 },
   visible: {
     opacity: 1,
     x: 0,
     rotate: 0,
-    transition: { type: "spring", stiffness: 60, delay: 0.2 },
+    transition: {
+      type: "spring" as const,
+      stiffness: 60,
+      delay: 0.2,
+    },
   },
 };
 
-const rightFadeUp = {
+const rightFadeUp: Variants = {
   hidden: { opacity: 0, y: 100, scale: 0.95 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { type: "tween", ease: "easeOut", duration: 0.8, delay: 0.4 },
+    transition: {
+      type: "tween" as const,
+      ease: "easeOut" as const,
+      duration: 0.8,
+      delay: 0.4,
+    },
   },
 };
 
@@ -30,7 +39,9 @@ const buttonHover = {
   boxShadow: "0px 4px 20px rgba(99, 102, 241, 0.4)",
 };
 
-const buttonTap = { scale: 0.95 };
+const buttonTap = {
+  scale: 0.95,
+};
 
 export default function PersonalFinance() {
   return (
@@ -48,12 +59,12 @@ export default function PersonalFinance() {
           </h1>
 
           <p className="text-gray-300 mb-4 hidden sm:block">
-            Learn how to take control of your money, make smarter financial decisions, and build
-            a stable future. Our Personal Finance course equips you with practical tools to
-            manage and grow your finances.
+            Learn how to take control of your money, make smarter financial decisions, and build a
+            stable future. Our Personal Finance course equips you with practical tools to manage
+            and grow your finances.
           </p>
 
-          <ul className="text-gray-300 list-disc list-inside mb-6 space-y-1 lg:flex  sm:block">
+          <ul className="text-gray-300 list-disc list-inside mb-6 space-y-1 lg:flex sm:block">
             <li>Budgeting and Expense Tracking</li>
             <li>Saving Techniques and Emergency Funds</li>
             <li>Debt Management Strategies</li>

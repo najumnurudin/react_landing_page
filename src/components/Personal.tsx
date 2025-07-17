@@ -1,23 +1,32 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import Carousel from "./Carousel";
 
-// Animation Variants
-const fadeRight = {
+// ✅ Typed Animation Variants
+const fadeRight: Variants = {
   hidden: { opacity: 0, x: 80, rotate: 3 },
   visible: {
     opacity: 1,
     x: 0,
     rotate: 0,
-    transition: { type: "spring", stiffness: 60, delay: 0.2 },
+    transition: {
+      type: "spring" as const,
+      stiffness: 60,
+      delay: 0.2,
+    },
   },
 };
 
-const fadeZoomIn = {
+const fadeZoomIn: Variants = {
   hidden: { opacity: 0, scale: 0.9 },
   visible: {
     opacity: 1,
     scale: 1,
-    transition: { type: "tween", ease: "easeOut", duration: 0.8, delay: 0.4 },
+    transition: {
+      type: "tween" as const,
+      ease: "easeOut" as const,
+      duration: 0.8,
+      delay: 0.4,
+    },
   },
 };
 
@@ -40,7 +49,7 @@ export default function PersonalDevelopment() {
           className="flex-1 flex flex-col justify-center items-start text-left p-6"
         >
           <h1 className="text-3xl md:text-5xl font-bold text-indigo-500 mb-4">
-            <span className="">Personal Development</span>
+            <span>Personal Development</span>
           </h1>
 
           <p className="text-gray-300 mb-4 hidden sm:block">
@@ -48,19 +57,13 @@ export default function PersonalDevelopment() {
             This program helps you unlock your potential and build habits for a successful life.
           </p>
 
-          <ul className="text-gray-300 list-disc list-inside mb-6 space-y-1  sm:block">
+          <ul className="text-gray-300 list-disc list-inside mb-6 space-y-1 sm:block">
             <li>Leadership and Communication</li>
             <li>Time Management</li>
             <li>Self-Awareness and Confidence</li>
             <li>Public Speaking Skills</li>
             <li>Goal Setting Techniques</li>
           </ul>
-
-          {/* <div className="flex gap-4 sm:hidden mb-6 text-indigo-400 text-3xl">
-            <FaUserGraduate title="Leadership" />
-            <FaComments title="Speaking" />
-            <FaBullseye title="Goals" />
-          </div> */}
 
           <motion.a
             href="#"

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { FaChartLine, FaMoneyBillWave, FaUsers } from "react-icons/fa";
 import image1 from './../assets/business/1.jpg'
 import image2 from './../assets/business/2.jpg'
 import image3 from './../assets/business/3.jpg'

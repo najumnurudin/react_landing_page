@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 import image1 from "../assets/tech/3.jpg";
 import image2 from "../assets/tech/2.jpg";
 import image3 from "../assets/tech/1.jpg";

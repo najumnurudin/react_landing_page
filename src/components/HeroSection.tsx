@@ -7,12 +7,7 @@ import { ImWhatsapp } from "react-icons/im";
 
 export default function HeroSection() {
   return (
-    <header className="w-[100vw] h-fit flex mt-10 p-10">
-      
-      <div className="flex">
-        {/* <Carousel/> */}
-        <Gallery/>
-      </div>
+    <header className="w-[100vw] h-fit lg:flex-row lg:flex mt-10 p-10  lg:overflow-hidden overflow-scroll ">
       <div className=" text-white  mt-9">
         <h1 className="text-3xl text-center  font-bold mt-2">
           <span className=" text-4xl bg-gradient-to-r from-orange-600 via-orange-700 to-orange-700 text-transparent bg-clip-text">Jifunze Leo,</span>  <br />
@@ -30,6 +25,9 @@ export default function HeroSection() {
           <i className="text-xs flex items-center select-none"><ImWhatsapp  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/><a className="text-white hover:text-orange-600 late" href="https://wa.me/255749722722"  target="_blank">+255 749 722 722</a> </i>
           <i className="text-xs flex items-center select-none"><IoMail size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/> <a className="text-white hover:text-orange-600 late" href="mailto:info@.tanzaniteskills.ac.tz" target="blank">info@.tanzaniteskills.ac.tz</a></i>
         </div>
+      </div>
+       <div className="flex lg:mt-20 mt-3">
+        <Gallery/>
       </div>
     </header>
   );

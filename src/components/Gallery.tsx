@@ -13,15 +13,15 @@ export default function Gallery() {
 
 
   return (
-    <div className="bg-black p-2 flex">
-        {slideImages.map((index) =>(
+    <div className=" font-bold select-none p-2 lg:flex-row lg:flex">
+        {slideImages.map((item, index) =>(
           <div className="" key={index}>
             <img
-              src={index.url}
-              alt={index.caption}
-              className="w-[200px] h-[300px] object-cover rounded-lg mx-3 m-2"
+              src={item.url}
+              alt={item.caption}
+              className="lg:w-[40vh] w-[40vh] lg:h-[60vh] h-[40vh] object-cover rounded-lg mx-3 m-2"
             />
-            <p className="text-white text-xs select-none text-center">{index.caption}</p>
+            <p className="text-white text-xs select-none text-center">{item.caption}</p>
           </div>
         ))}
     </div>

@@ -64,7 +64,7 @@ export default function PersonalFinance() {
             and grow your finances.
           </p>
 
-          <ul className="text-gray-300 list-disc list-inside mb-6 space-y-1 lg:flex sm:block">
+          <ul className="text-gray-300 list-disc list-inside mb-6 space-y-1  sm:block">
             <li>Budgeting and Expense Tracking</li>
             <li>Saving Techniques and Emergency Funds</li>
             <li>Debt Management Strategies</li>

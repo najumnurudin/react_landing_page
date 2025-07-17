@@ -21,7 +21,7 @@ export default function HeroSection() {
           <i><FaInstagram  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/></i>
           <i><RiTwitterXFill  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/></i>
         </div>
-        <div className="lg:mx-[5vh] mx-[9vh]  mt-[6vh] late lg:flex lg:flex-row flex-col flex justify-center w-fit h-fit lg:justify-between">
+        <div className="lg:mx-[5vh] mx-[9vh] gap-0 lg:gap-5 mt-[6vh] late lg:flex lg:flex-row flex-col flex justify-center w-fit h-fit lg:justify-between">
           <i className="text-xs flex items-center select-none"><ImWhatsapp  size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/><a className="text-white hover:text-orange-600 late" href="https://wa.me/255749722722"  target="_blank">+255 749 722 722</a> </i>
           <i className="text-xs flex items-center select-none"><IoMail size={28} className=" p-1 rounded-full hover:bg-yellow-700 cursor-pointer late"/> <a className="text-white hover:text-orange-600 late" href="mailto:info@.tanzaniteskills.ac.tz" target="blank">info@.tanzaniteskills.ac.tz</a></i>
         </div>

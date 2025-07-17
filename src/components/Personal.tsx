@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { FaUserGraduate, FaComments, FaBullseye } from "react-icons/fa";
 import Carousel from "./Carousel";
 
 // Animation Variants

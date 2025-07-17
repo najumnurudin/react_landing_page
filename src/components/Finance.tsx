@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FaPiggyBank, FaCreditCard, FaChartLine } from "react-icons/fa";
-import image1 from "../assets/images/1.jpg";
-import image2 from "../assets/images/2.jpg";
-import image3 from "../assets/images/3.jpg";
+import image1 from "../assets/finance/1.jpg";
+import image2 from "../assets/finance/2.jpg";
+import image3 from "../assets/finance/3.jpg";
 
 // Animation Variants
 const leftFadeIn = {

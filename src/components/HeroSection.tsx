@@ -1,5 +1,4 @@
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import Carousel from "./Carousel";
+import { FaInstagram } from "react-icons/fa";
 import Gallery from "./Gallery";
 import { TiSocialFacebook } from "react-icons/ti";
 import { RiTwitterXFill } from "react-icons/ri";

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FaChartLine, FaMoneyBillWave, FaUsers } from "react-icons/fa";
-import image1 from "../assets/images/5.jpg";
-import image2 from "../assets/images/1.jpg";
-import image3 from "../assets/images/2.jpg";
+import image1 from './../assets/business/1.jpg'
+import image2 from './../assets/business/2.jpg'
+import image3 from './../assets/business/3.jpg'
 
 export default function BusinessDevelopment() {
   return (

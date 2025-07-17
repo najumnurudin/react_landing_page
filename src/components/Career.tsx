@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FaBriefcase, FaSearch, FaHandshake } from "react-icons/fa";
-import image1 from "../assets/images/3.jpg";
-import image2 from "../assets/images/1.jpg";
-import image3 from "../assets/images/4.jpg";
+import image1 from "../assets/career/3.jpg";
+import image2 from "../assets/career/1.jpg";
+import image3 from "../assets/career/2.jpg";
 
 export default function Career() {
   return (

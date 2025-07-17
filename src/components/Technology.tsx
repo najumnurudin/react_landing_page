@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
-import { FaRobot, FaCloud, FaShieldAlt, FaMicrochip, FaBolt } from "react-icons/fa";
-import image1 from "../assets/images/3.jpg";
-import image2 from "../assets/images/2.jpg";
-import image3 from "../assets/images/1.jpg";
+import image1 from "../assets/tech/3.jpg";
+import image2 from "../assets/tech/2.jpg";
+import image3 from "../assets/tech/1.jpg";
 
 export default function TechnologicalDevelopment() {
   return (

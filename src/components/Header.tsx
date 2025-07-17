@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Navigation } from "./Navigation";
-import image from '../assets/images/8.png'
+import image from '../assets/images/55.png'
 
 export default function Header() {
   return (

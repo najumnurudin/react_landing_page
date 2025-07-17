@@ -1,11 +1,11 @@
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
-import image_1 from "../assets/images/1.jpg";
-import image_2 from "../assets/images/2.jpg"; 
-import image_3 from "../assets/images/3.jpg";
-import image_4 from "../assets/images/4.jpg";
-import image_5 from "../assets/images/5.jpg";
-import image_6 from "../assets/images/6.jpg";
+import image_1 from "../assets/career/1.jpg";
+import image_2 from "../assets/career/2.jpg"; 
+import image_3 from "../assets/career/3.jpg";
+import image_4 from "../assets/tech/1.jpg";
+import image_5 from "../assets/tech/2.jpg";
+import image_6 from "../assets/tech/2.jpg";
 
 const slideImages = [
   { url: image_1, caption: 'Explore the World' },
